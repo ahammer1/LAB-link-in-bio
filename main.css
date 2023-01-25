@@ -1,7 +1,6 @@
 body {
-  background-color: darkcyan;
+  background-color:rgb(150, 85, 211)
 }
-
 
 .about{
   width: auto;
@@ -11,6 +10,22 @@ body {
 
  .btn {
   width: 100%;
-  display: inline-blsock;
+  display: flex;
+  justify-content: center;
   text-align: center;
  }
+
+ .all {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 45%;
+  padding: 40px 0;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+ }
+
+ 
